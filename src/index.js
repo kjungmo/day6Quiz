@@ -19,19 +19,6 @@ function getC() {
   select.addEventListener("change", saveC);
 }
 
-/*
-function loadC(){
-  const selected = localStorage.getItem("country");
-  if(selected){
-    const option = document.querySelector(`option[value="${selected}"]`);
-    option.selected = true;
-  }
-}
-function handleChange() {
-  const selected = select.value;
-  localStorage.setItem("country", selected);
-}
-*/
 function init() {
   getC();
 }
